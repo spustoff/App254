@@ -11,6 +11,42 @@
 		F98DCF2F2AFE6ACF00D983D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF2E2AFE6ACF00D983D3 /* ContentView.swift */; };
 		F98DCF312AFE6AD000D983D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98DCF302AFE6AD000D983D3 /* Assets.xcassets */; };
 		F98DCF342AFE6AD000D983D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98DCF332AFE6AD000D983D3 /* Preview Assets.xcassets */; };
+		F98DCF3B2AFE6B4700D983D3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98DCF3A2AFE6B4700D983D3 /* Launch Screen.storyboard */; };
+		F98DCF3E2AFE6BA100D983D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F98DCF3D2AFE6BA100D983D3 /* Alamofire */; };
+		F98DCF412AFE6BA800D983D3 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F98DCF402AFE6BA800D983D3 /* ApphudSDK */; };
+		F98DCF442AFE6BAF00D983D3 /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = F98DCF432AFE6BAF00D983D3 /* Amplitude */; };
+		F98DCF492AFE6BC200D983D3 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F98DCF482AFE6BC200D983D3 /* OneSignalFramework */; };
+		F98DCF502AFE6BD800D983D3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF4F2AFE6BD800D983D3 /* LoadingView.swift */; };
+		F98DCF522AFE6BDC00D983D3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF512AFE6BDC00D983D3 /* TabBar.swift */; };
+		F98DCF5C2AFE6C0A00D983D3 /* Reviewers_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF5B2AFE6C0A00D983D3 /* Reviewers_1.swift */; };
+		F98DCF5E2AFE6C0E00D983D3 /* Reviewers_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF5D2AFE6C0E00D983D3 /* Reviewers_2.swift */; };
+		F98DCF602AFE6C1100D983D3 /* Reviewers_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF5F2AFE6C1100D983D3 /* Reviewers_3.swift */; };
+		F98DCF622AFE6C1500D983D3 /* Users_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF612AFE6C1500D983D3 /* Users_1.swift */; };
+		F98DCF642AFE6C1900D983D3 /* Users_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF632AFE6C1900D983D3 /* Users_2.swift */; };
+		F98DCF662AFE6C1C00D983D3 /* Users_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF652AFE6C1C00D983D3 /* Users_3.swift */; };
+		F98DCF682AFE6C1F00D983D3 /* Users_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF672AFE6C1F00D983D3 /* Users_4.swift */; };
+		F98DCF6A2AFE6E5900D983D3 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF692AFE6E5900D983D3 /* ProductsView.swift */; };
+		F98DCF6C2AFE6E5F00D983D3 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF6B2AFE6E5F00D983D3 /* ProductsViewModel.swift */; };
+		F98DCF6F2AFE6E6500D983D3 /* ProductsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF6D2AFE6E6500D983D3 /* ProductsModel.xcdatamodeld */; };
+		F98DCF712AFE6EC200D983D3 /* Exts+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF702AFE6EC200D983D3 /* Exts+CoreData.swift */; };
+		F98DCF742AFE701F00D983D3 /* ProductsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF732AFE701F00D983D3 /* ProductsAdd.swift */; };
+		F98DCF772AFE716500D983D3 /* ProductsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF762AFE716500D983D3 /* ProductsSettings.swift */; };
+		F98DCF792AFE720B00D983D3 /* Exts+TradeChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF782AFE720B00D983D3 /* Exts+TradeChart.swift */; };
+		F98DCF7F2AFE770D00D983D3 /* ShipmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF7E2AFE770D00D983D3 /* ShipmentsView.swift */; };
+		F98DCF812AFE771100D983D3 /* ShipmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF802AFE771100D983D3 /* ShipmentsViewModel.swift */; };
+		F98DCF842AFE771C00D983D3 /* ShipmentsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF822AFE771C00D983D3 /* ShipmentsModel.xcdatamodeld */; };
+		F98DCF872AFE77AA00D983D3 /* ShipmentsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF862AFE77AA00D983D3 /* ShipmentsAdd.swift */; };
+		F98DCF892AFE789800D983D3 /* Exts+ConvertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF882AFE789800D983D3 /* Exts+ConvertDate.swift */; };
+		F98DCF8C2AFE792E00D983D3 /* ShipmentsCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF8B2AFE792E00D983D3 /* ShipmentsCalendar.swift */; };
+		F98DCF8E2AFE79A300D983D3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF8D2AFE79A300D983D3 /* SearchView.swift */; };
+		F98DCF902AFE7B4E00D983D3 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF8F2AFE7B4E00D983D3 /* ReportsView.swift */; };
+		F98DCF922AFE7B5300D983D3 /* ReportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF912AFE7B5300D983D3 /* ReportsViewModel.swift */; };
+		F98DCF942AFE7B9D00D983D3 /* Exts+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF932AFE7B9D00D983D3 /* Exts+Array.swift */; };
+		F98DCF972AFE7C9100D983D3 /* ReportsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DCF962AFE7C9100D983D3 /* ReportsAdd.swift */; };
+		F9AF53B72B04F7ED00E0ED80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9AF53B62B04F7ED00E0ED80 /* GoogleService-Info.plist */; };
+		F9AF53F52B04F91A00E0ED80 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F9AF53F42B04F91A00E0ED80 /* FirebaseRemoteConfigSwift */; };
+		F9AF53FB2B04F95100E0ED80 /* Exts+s.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF53FA2B04F95100E0ED80 /* Exts+s.swift */; };
+		F9AF53FD2B04F95700E0ED80 /* Exts+w.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF53FC2B04F95700E0ED80 /* Exts+w.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +55,37 @@
 		F98DCF2E2AFE6ACF00D983D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F98DCF302AFE6AD000D983D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F98DCF332AFE6AD000D983D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F98DCF3A2AFE6B4700D983D3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F98DCF4F2AFE6BD800D983D3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F98DCF512AFE6BDC00D983D3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F98DCF5B2AFE6C0A00D983D3 /* Reviewers_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_1.swift; sourceTree = "<group>"; };
+		F98DCF5D2AFE6C0E00D983D3 /* Reviewers_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_2.swift; sourceTree = "<group>"; };
+		F98DCF5F2AFE6C1100D983D3 /* Reviewers_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_3.swift; sourceTree = "<group>"; };
+		F98DCF612AFE6C1500D983D3 /* Users_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_1.swift; sourceTree = "<group>"; };
+		F98DCF632AFE6C1900D983D3 /* Users_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_2.swift; sourceTree = "<group>"; };
+		F98DCF652AFE6C1C00D983D3 /* Users_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_3.swift; sourceTree = "<group>"; };
+		F98DCF672AFE6C1F00D983D3 /* Users_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_4.swift; sourceTree = "<group>"; };
+		F98DCF692AFE6E5900D983D3 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		F98DCF6B2AFE6E5F00D983D3 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		F98DCF6E2AFE6E6500D983D3 /* ProductsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsModel.xcdatamodel; sourceTree = "<group>"; };
+		F98DCF702AFE6EC200D983D3 /* Exts+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+CoreData.swift"; sourceTree = "<group>"; };
+		F98DCF732AFE701F00D983D3 /* ProductsAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAdd.swift; sourceTree = "<group>"; };
+		F98DCF762AFE716500D983D3 /* ProductsSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSettings.swift; sourceTree = "<group>"; };
+		F98DCF782AFE720B00D983D3 /* Exts+TradeChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+TradeChart.swift"; sourceTree = "<group>"; };
+		F98DCF7E2AFE770D00D983D3 /* ShipmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentsView.swift; sourceTree = "<group>"; };
+		F98DCF802AFE771100D983D3 /* ShipmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentsViewModel.swift; sourceTree = "<group>"; };
+		F98DCF832AFE771C00D983D3 /* ShipmentsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShipmentsModel.xcdatamodel; sourceTree = "<group>"; };
+		F98DCF862AFE77AA00D983D3 /* ShipmentsAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentsAdd.swift; sourceTree = "<group>"; };
+		F98DCF882AFE789800D983D3 /* Exts+ConvertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+ConvertDate.swift"; sourceTree = "<group>"; };
+		F98DCF8B2AFE792E00D983D3 /* ShipmentsCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentsCalendar.swift; sourceTree = "<group>"; };
+		F98DCF8D2AFE79A300D983D3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F98DCF8F2AFE7B4E00D983D3 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		F98DCF912AFE7B5300D983D3 /* ReportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewModel.swift; sourceTree = "<group>"; };
+		F98DCF932AFE7B9D00D983D3 /* Exts+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+Array.swift"; sourceTree = "<group>"; };
+		F98DCF962AFE7C9100D983D3 /* ReportsAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsAdd.swift; sourceTree = "<group>"; };
+		F9AF53B62B04F7ED00E0ED80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9AF53FA2B04F95100E0ED80 /* Exts+s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+s.swift"; sourceTree = "<group>"; };
+		F9AF53FC2B04F95700E0ED80 /* Exts+w.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+w.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +93,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98DCF442AFE6BAF00D983D3 /* Amplitude in Frameworks */,
+				F98DCF3E2AFE6BA100D983D3 /* Alamofire in Frameworks */,
+				F98DCF412AFE6BA800D983D3 /* ApphudSDK in Frameworks */,
+				F98DCF492AFE6BC200D983D3 /* OneSignalFramework in Frameworks */,
+				F9AF53F52B04F91A00E0ED80 /* FirebaseRemoteConfigSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +123,11 @@
 		F98DCF2B2AFE6ACF00D983D3 /* App254 */ = {
 			isa = PBXGroup;
 			children = (
+				F9AF53B62B04F7ED00E0ED80 /* GoogleService-Info.plist */,
+				F98DCF3A2AFE6B4700D983D3 /* Launch Screen.storyboard */,
 				F98DCF2C2AFE6ACF00D983D3 /* App254App.swift */,
 				F98DCF2E2AFE6ACF00D983D3 /* ContentView.swift */,
+				F98DCF4E2AFE6BCA00D983D3 /* Files */,
 				F98DCF302AFE6AD000D983D3 /* Assets.xcassets */,
 				F98DCF322AFE6AD000D983D3 /* Preview Content */,
 			);
@@ -65,6 +140,146 @@
 				F98DCF332AFE6AD000D983D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F98DCF4E2AFE6BCA00D983D3 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF532AFE6BDE00D983D3 /* Exts */,
+				F98DCF4F2AFE6BD800D983D3 /* LoadingView.swift */,
+				F98DCF512AFE6BDC00D983D3 /* TabBar.swift */,
+				F98DCF582AFE6BF800D983D3 /* Reports */,
+				F98DCF572AFE6BF500D983D3 /* Search */,
+				F98DCF562AFE6BF000D983D3 /* Shipments */,
+				F98DCF552AFE6BED00D983D3 /* Products */,
+				F98DCF542AFE6BE500D983D3 /* Splash */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		F98DCF532AFE6BDE00D983D3 /* Exts */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF702AFE6EC200D983D3 /* Exts+CoreData.swift */,
+				F98DCF782AFE720B00D983D3 /* Exts+TradeChart.swift */,
+				F98DCF882AFE789800D983D3 /* Exts+ConvertDate.swift */,
+				F98DCF932AFE7B9D00D983D3 /* Exts+Array.swift */,
+				F9AF53FA2B04F95100E0ED80 /* Exts+s.swift */,
+				F9AF53FC2B04F95700E0ED80 /* Exts+w.swift */,
+			);
+			path = Exts;
+			sourceTree = "<group>";
+		};
+		F98DCF542AFE6BE500D983D3 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF5A2AFE6C0000D983D3 /* Reviewers */,
+				F98DCF592AFE6BFC00D983D3 /* Users */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F98DCF552AFE6BED00D983D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF752AFE715C00D983D3 /* ProductsSettings */,
+				F98DCF722AFE701A00D983D3 /* ProductsAdd */,
+				F98DCF692AFE6E5900D983D3 /* ProductsView.swift */,
+				F98DCF6B2AFE6E5F00D983D3 /* ProductsViewModel.swift */,
+				F98DCF6D2AFE6E6500D983D3 /* ProductsModel.xcdatamodeld */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		F98DCF562AFE6BF000D983D3 /* Shipments */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF8A2AFE792600D983D3 /* ShipmentsCalendar */,
+				F98DCF852AFE77A100D983D3 /* ShipmentsAdd */,
+				F98DCF7E2AFE770D00D983D3 /* ShipmentsView.swift */,
+				F98DCF802AFE771100D983D3 /* ShipmentsViewModel.swift */,
+				F98DCF822AFE771C00D983D3 /* ShipmentsModel.xcdatamodeld */,
+			);
+			path = Shipments;
+			sourceTree = "<group>";
+		};
+		F98DCF572AFE6BF500D983D3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF8D2AFE79A300D983D3 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F98DCF582AFE6BF800D983D3 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF952AFE7C8A00D983D3 /* ReportsAdd */,
+				F98DCF8F2AFE7B4E00D983D3 /* ReportsView.swift */,
+				F98DCF912AFE7B5300D983D3 /* ReportsViewModel.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		F98DCF592AFE6BFC00D983D3 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF612AFE6C1500D983D3 /* Users_1.swift */,
+				F98DCF632AFE6C1900D983D3 /* Users_2.swift */,
+				F98DCF652AFE6C1C00D983D3 /* Users_3.swift */,
+				F98DCF672AFE6C1F00D983D3 /* Users_4.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F98DCF5A2AFE6C0000D983D3 /* Reviewers */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF5B2AFE6C0A00D983D3 /* Reviewers_1.swift */,
+				F98DCF5D2AFE6C0E00D983D3 /* Reviewers_2.swift */,
+				F98DCF5F2AFE6C1100D983D3 /* Reviewers_3.swift */,
+			);
+			path = Reviewers;
+			sourceTree = "<group>";
+		};
+		F98DCF722AFE701A00D983D3 /* ProductsAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF732AFE701F00D983D3 /* ProductsAdd.swift */,
+			);
+			path = ProductsAdd;
+			sourceTree = "<group>";
+		};
+		F98DCF752AFE715C00D983D3 /* ProductsSettings */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF762AFE716500D983D3 /* ProductsSettings.swift */,
+			);
+			path = ProductsSettings;
+			sourceTree = "<group>";
+		};
+		F98DCF852AFE77A100D983D3 /* ShipmentsAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF862AFE77AA00D983D3 /* ShipmentsAdd.swift */,
+			);
+			path = ShipmentsAdd;
+			sourceTree = "<group>";
+		};
+		F98DCF8A2AFE792600D983D3 /* ShipmentsCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF8B2AFE792E00D983D3 /* ShipmentsCalendar.swift */,
+			);
+			path = ShipmentsCalendar;
+			sourceTree = "<group>";
+		};
+		F98DCF952AFE7C8A00D983D3 /* ReportsAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F98DCF962AFE7C9100D983D3 /* ReportsAdd.swift */,
+			);
+			path = ReportsAdd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +298,13 @@
 			dependencies = (
 			);
 			name = App254;
+			packageProductDependencies = (
+				F98DCF3D2AFE6BA100D983D3 /* Alamofire */,
+				F98DCF402AFE6BA800D983D3 /* ApphudSDK */,
+				F98DCF432AFE6BAF00D983D3 /* Amplitude */,
+				F98DCF482AFE6BC200D983D3 /* OneSignalFramework */,
+				F9AF53F42B04F91A00E0ED80 /* FirebaseRemoteConfigSwift */,
+			);
 			productName = App254;
 			productReference = F98DCF292AFE6ACF00D983D3 /* App254.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +333,13 @@
 				Base,
 			);
 			mainGroup = F98DCF202AFE6ACF00D983D3;
+			packageReferences = (
+				F98DCF3C2AFE6BA100D983D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F98DCF3F2AFE6BA800D983D3 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				F98DCF422AFE6BAF00D983D3 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+				F98DCF452AFE6BC100D983D3 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				F9AF53C32B04F91A00E0ED80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F98DCF2A2AFE6ACF00D983D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98DCF3B2AFE6B4700D983D3 /* Launch Screen.storyboard in Resources */,
+				F9AF53B72B04F7ED00E0ED80 /* GoogleService-Info.plist in Resources */,
 				F98DCF342AFE6AD000D983D3 /* Preview Assets.xcassets in Resources */,
 				F98DCF312AFE6AD000D983D3 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +368,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98DCF972AFE7C9100D983D3 /* ReportsAdd.swift in Sources */,
+				F9AF53FD2B04F95700E0ED80 /* Exts+w.swift in Sources */,
+				F98DCF662AFE6C1C00D983D3 /* Users_3.swift in Sources */,
+				F98DCF942AFE7B9D00D983D3 /* Exts+Array.swift in Sources */,
+				F98DCF872AFE77AA00D983D3 /* ShipmentsAdd.swift in Sources */,
+				F98DCF642AFE6C1900D983D3 /* Users_2.swift in Sources */,
+				F98DCF602AFE6C1100D983D3 /* Reviewers_3.swift in Sources */,
+				F98DCF842AFE771C00D983D3 /* ShipmentsModel.xcdatamodeld in Sources */,
+				F98DCF6C2AFE6E5F00D983D3 /* ProductsViewModel.swift in Sources */,
 				F98DCF2F2AFE6ACF00D983D3 /* ContentView.swift in Sources */,
+				F98DCF622AFE6C1500D983D3 /* Users_1.swift in Sources */,
+				F98DCF812AFE771100D983D3 /* ShipmentsViewModel.swift in Sources */,
+				F98DCF7F2AFE770D00D983D3 /* ShipmentsView.swift in Sources */,
+				F98DCF5C2AFE6C0A00D983D3 /* Reviewers_1.swift in Sources */,
+				F98DCF682AFE6C1F00D983D3 /* Users_4.swift in Sources */,
 				F98DCF2D2AFE6ACF00D983D3 /* App254App.swift in Sources */,
+				F98DCF742AFE701F00D983D3 /* ProductsAdd.swift in Sources */,
+				F98DCF772AFE716500D983D3 /* ProductsSettings.swift in Sources */,
+				F98DCF8E2AFE79A300D983D3 /* SearchView.swift in Sources */,
+				F98DCF8C2AFE792E00D983D3 /* ShipmentsCalendar.swift in Sources */,
+				F98DCF892AFE789800D983D3 /* Exts+ConvertDate.swift in Sources */,
+				F98DCF922AFE7B5300D983D3 /* ReportsViewModel.swift in Sources */,
+				F98DCF712AFE6EC200D983D3 /* Exts+CoreData.swift in Sources */,
+				F98DCF6A2AFE6E5900D983D3 /* ProductsView.swift in Sources */,
+				F98DCF902AFE7B4E00D983D3 /* ReportsView.swift in Sources */,
+				F98DCF502AFE6BD800D983D3 /* LoadingView.swift in Sources */,
+				F98DCF6F2AFE6E6500D983D3 /* ProductsModel.xcdatamodeld in Sources */,
+				F98DCF522AFE6BDC00D983D3 /* TabBar.swift in Sources */,
+				F98DCF5E2AFE6C0E00D983D3 /* Reviewers_2.swift in Sources */,
+				F98DCF792AFE720B00D983D3 /* Exts+TradeChart.swift in Sources */,
+				F9AF53FB2B04F95100E0ED80 /* Exts+s.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +446,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -197,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -248,13 +508,14 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,11 +535,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App254/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinFolio;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +549,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xz.App254;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +568,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App254/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FinFolio;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +582,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xz.App254;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -342,6 +613,100 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F98DCF3C2AFE6BA100D983D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		F98DCF3F2AFE6BA800D983D3 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		F98DCF422AFE6BAF00D983D3 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F98DCF452AFE6BC100D983D3 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.4;
+			};
+		};
+		F9AF53C32B04F91A00E0ED80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F98DCF3D2AFE6BA100D983D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F98DCF3C2AFE6BA100D983D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F98DCF402AFE6BA800D983D3 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F98DCF3F2AFE6BA800D983D3 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		F98DCF432AFE6BAF00D983D3 /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F98DCF422AFE6BAF00D983D3 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+		F98DCF482AFE6BC200D983D3 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F98DCF452AFE6BC100D983D3 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		F9AF53F42B04F91A00E0ED80 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9AF53C32B04F91A00E0ED80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F98DCF6D2AFE6E6500D983D3 /* ProductsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F98DCF6E2AFE6E6500D983D3 /* ProductsModel.xcdatamodel */,
+			);
+			currentVersion = F98DCF6E2AFE6E6500D983D3 /* ProductsModel.xcdatamodel */;
+			path = ProductsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F98DCF822AFE771C00D983D3 /* ShipmentsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F98DCF832AFE771C00D983D3 /* ShipmentsModel.xcdatamodel */,
+			);
+			currentVersion = F98DCF832AFE771C00D983D3 /* ShipmentsModel.xcdatamodel */;
+			path = ShipmentsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F98DCF212AFE6ACF00D983D3 /* Project object */;
 }
