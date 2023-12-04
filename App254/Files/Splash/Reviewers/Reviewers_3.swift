@@ -15,7 +15,7 @@ struct Reviewers_3: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg2")
                 .ignoresSafeArea()
             
             VStack {
@@ -27,7 +27,7 @@ struct Reviewers_3: View {
                 VStack(alignment: .center, spacing: 6, content: {
                     
                     Text("Smart statistics")
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                         .font(.system(size: 26, weight: .semibold))
                         .multilineTextAlignment(.center)
                     

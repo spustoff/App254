@@ -16,7 +16,7 @@ struct Users_1: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg2")
                 .ignoresSafeArea()
             
             VStack {
@@ -28,7 +28,7 @@ struct Users_1: View {
                 VStack(alignment: .center, spacing: 6, content: {
                     
                     Text("Unlock your inner trader")
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                         .font(.system(size: 26, weight: .semibold))
                         .multilineTextAlignment(.center)
                     

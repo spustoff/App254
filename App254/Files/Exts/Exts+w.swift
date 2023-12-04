@@ -24,39 +24,32 @@ struct WebSystem: View {
     }
 }
 
-class WController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWebViewDelegate {
-    
+class WController: UIViewController, WKNavigationDelegate, WKUIDelegate {
+
     @AppStorage("first_open") var firstOpen: Bool = true
     @AppStorage("silka") var silka: String = ""
     
     @Published var url_link: URL = URL(string: "h")!
     
     var webView = WKWebView()
-    
+    var redirectTimer: Timer?
+
     override func viewDidAppear(_ animated: Bool) {
-        
         super.viewDidAppear(animated)
     }
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-        
         getRequest()
     }
     
     private func getRequest() {
-        
         getFirebaseData(field: "url_link", dataType: .url) { resulter in
-            
             guard let url = URL(string: "\(resulter)") else { return }
             
-            if let modifiedURL = self.insertValueAfterClickID(in: url.absoluteString, value: Apphud.userID()) {
-                
+            if let modifiedURL = self.insertValueAfterClickID(in: "\(resulter)", with: Apphud.userID()) {
                 self.url_link = modifiedURL
-                
             } else {
-                
                 self.url_link = url
             }
             
@@ -64,31 +57,26 @@ class WController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWebVi
         }
     }
     
-    func insertValueAfterClickID(in urlString: String, value: String) -> URL? {
-        
-        guard let range = urlString.range(of: "click_id=") else { return nil }
-        
-        let start = urlString.index(range.upperBound, offsetBy: 0)
-        var end = start
-        
-        while end != urlString.endIndex, urlString[end].isNumber {
-            end = urlString.index(after: end)
-        }
-        
+    func insertValueAfterClickID(in urlString: String, with value: String) -> URL? {
         var newURLString = urlString
-        newURLString.replaceSubrange(start..<end, with: value)
+
+        if let range = urlString.range(of: "click_id=") {
+            let existingIDEnd = urlString[range.upperBound...].firstIndex(where: { !$0.isNumber }) ?? urlString.endIndex
+            let insertionPoint = urlString.index(range.upperBound, offsetBy: urlString.distance(from: range.upperBound, to: existingIDEnd))
+            newURLString.insert(contentsOf: value, at: insertionPoint)
+        } else {
+            let separator = urlString.contains("?") ? "&" : "?"
+            newURLString += "\(separator)click_id=\(value)"
+        }
         
         return URL(string: newURLString)
     }
     
     private func getInfo() {
-        
         var request: URLRequest?
         
         if silka == "about:blank" || silka.isEmpty {
-            
             request = URLRequest(url: self.url_link)
-            
             self.silka = url_link.absoluteString
         }
         
@@ -97,13 +85,11 @@ class WController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWebVi
         request?.allHTTPHeaderFields = headers
         
         DispatchQueue.main.async {
-            
             self.setupWebView()
         }
     }
     
     private func setupWebView() {
-        
         guard let url = URL(string: silka) else { return }
         
         view.backgroundColor = .white
@@ -125,22 +111,40 @@ class WController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWebVi
         loadCookie()
     }
     
-    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: (WKNavigationActionPolicy) -> Void) {
-        
-        guard let url = navigationAction.request.url else { return }
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        guard let url = navigationAction.request.url else {
+            decisionHandler(.cancel)
+            return
+        }
+
+        if url.absoluteString.contains("thread") {
+            
+            startRedirectTimer()
+        }
+
         silka = "\(url)"
-//        print("Сохранённая ссылка: \(silka)")
         saveCookie()
         decisionHandler(.allow)
     }
     
+    private func startRedirectTimer() {
+        redirectTimer?.invalidate()
+        redirectTimer = Timer.scheduledTimer(timeInterval: 7.0, target: self, selector: #selector(checkForRedirect), userInfo: nil, repeats: false)
+    }
+
+    @objc private func checkForRedirect() {
+        if let currentURL = webView.url {
+            if currentURL.absoluteString != silka {
+                print("redirected url: \(currentURL.absoluteString)")
+                silka = currentURL.absoluteString
+            }
+        }
+    }
+    
     func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
-        
         if navigationAction.targetFrame == nil {
-            
             webView.load(navigationAction.request)
         }
-        
         return nil
     }
     
@@ -169,7 +173,6 @@ class WController: UIViewController, WKNavigationDelegate, WKUIDelegate, UIWebVi
     }
     
     override func viewDidLayoutSubviews() {
-        
         super.viewDidLayoutSubviews()
     }
 }
