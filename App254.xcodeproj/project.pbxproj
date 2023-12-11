@@ -86,6 +86,8 @@
 		F9AF53B62B04F7ED00E0ED80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F9AF53FA2B04F95100E0ED80 /* Exts+s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+s.swift"; sourceTree = "<group>"; };
 		F9AF53FC2B04F95700E0ED80 /* Exts+w.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exts+w.swift"; sourceTree = "<group>"; };
+		F9D9B36F2B276AD700863052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9D9B3702B276AD900863052 /* App254.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App254.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,8 @@
 		F98DCF2B2AFE6ACF00D983D3 /* App254 */ = {
 			isa = PBXGroup;
 			children = (
+				F9D9B3702B276AD900863052 /* App254.entitlements */,
+				F9D9B36F2B276AD700863052 /* Info.plist */,
 				F9AF53B62B04F7ED00E0ED80 /* GoogleService-Info.plist */,
 				F98DCF3A2AFE6B4700D983D3 /* Launch Screen.storyboard */,
 				F98DCF2C2AFE6ACF00D983D3 /* App254App.swift */,
@@ -530,12 +534,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App254/App254.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"App254/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Olymp Trade";
+				INFOPLIST_FILE = App254/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olymp Invest Pro";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -546,7 +552,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = xz.App254;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -563,12 +569,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App254/App254.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"App254/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Olymp Trade";
+				INFOPLIST_FILE = App254/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olymp Invest Pro";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -579,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = xz.App254;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
